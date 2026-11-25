@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<title>Mars, Blackstone and Gilead just built in India. Three different ways.</title>
+<!-- Poppins loads in Apple Mail / iOS / Samsung Mail; others fall back to Arial -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<!--
+  SETUP (Brevo)
+  1. IMPORT: Brevo > Campaigns > Create email > Design > "Paste your code" (Code your own). Paste this whole file.
+  2. LOGO: header logo is hosted on GitHub (mayurcoolkrni7/shortlist-assets, ncelerate/assets/ncelerate-logo.png),
+     shown on a white pill for contrast on the dark header. Footer still uses a text wordmark.
+  3. COLOURS (NCelerate brand palette, find-and-replace to adjust):
+     Dark blue #0B2559 / #12347A  |  Orange #FF7A1A / #C2560A (text)  |  Hologram violet #C77DFF / pink #E86BD6  |  Periwinkle #8A96F2
+     Hologram gradients fall back to solid colours in Outlook.
+  4. PERSONALISATION: Brevo tags {{ contact.FIRSTNAME }}, {{ unsubscribe }}, {{ update_profile }}, {{ mirror }}.
+     Make sure the FIRSTNAME attribute exists in Contacts > Settings.
+  5. LINKS: all ncelerate.com links carry UTM tags (campaign: ncelerate_newsletter_2026-11).
+     If Brevo's own Google Analytics tracking is on, turn it off for this campaign to avoid duplicate UTMs.
+-->
+<style>
+  body { margin:0; padding:0; background:#EEF2FA; -webkit-text-size-adjust:100%; }
+  a { color:#C2560A; }
+  img { border:0; display:block; outline:none; text-decoration:none; height:auto; }
+  .d { font-family:'Poppins',Arial,Helvetica,sans-serif !important; }
+
+  .btn:hover { background-color:#12347A !important; }
+  .tile:hover { background-color:rgba(255,255,255,.14) !important; border-color:rgba(255,122,26,.7) !important; }
+  .poll:hover { background-color:#FF7A1A !important; color:#FFFFFF !important; border-color:#FF7A1A !important; }
+
+  @media only screen and (max-width:620px) {
+    .wrap { width:100% !important; border-radius:0 !important; }
+    .pad { padding-left:16px !important; padding-right:16px !important; }
+    .stack { display:block !important; width:100% !important; max-width:100% !important; box-sizing:border-box; }
+    .tile-cell { display:block !important; width:100% !important; padding:0 0 8px 0 !important; box-sizing:border-box; }
+    .step-cell { margin-bottom:8px !important; }
+    .hide-m { display:none !important; }
+    .hero-h { font-size:27px !important; line-height:32px !important; }
+    .cta-txt { width:100% !important; }
+    .poll-cell { display:inline-block !important; width:48% !important; padding:0 0 6px 0 !important; }
+    .chip { display:inline-block !important; margin-bottom:6px !important; }
+    .stage { display:block !important; width:100% !important; padding:0 0 8px 0 !important; box-sizing:border-box; }
+  }
+</style>
+</head>
+<body style="margin:0;padding:0;background:#EEF2FA;">
+
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#EEF2FA;font-size:1px;line-height:1px;">
+One started with a partner. One kept it in-house. One mixed both.&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#EEF2FA;">
+<tr><td align="center" style="padding:14px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:16px;color:#5A6B78;"><a href="{{ mirror }}" style="color:#C2560A;">View this email in your browser</a></td></tr>
+<tr><td align="center" style="padding:10px 0 20px 0;">
+<table role="presentation" class="wrap" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:600px;background:#FFFFFF;border-radius:22px;overflow:hidden;">
+
+  <!-- ================= HERO ================= -->
+  <tr><td bgcolor="#0B2559" valign="top" style="background-color:#0B2559;background-image:radial-gradient(circle at 88% 8%,rgba(255,122,26,.38) 0%,rgba(255,122,26,0) 38%),radial-gradient(circle at 8% 62%,rgba(138,150,242,.38) 0%,rgba(138,150,242,0) 42%),radial-gradient(circle at 62% 96%,rgba(199,125,255,.28) 0%,rgba(199,125,255,0) 40%),linear-gradient(160deg,#0B2559 0%,#12347A 100%);">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr><td height="4" bgcolor="#FF7A1A" style="height:4px;font-size:0;line-height:0;background-color:#FF7A1A;background-image:linear-gradient(90deg,#FF7A1A 0%,#FFB27A 20%,#C77DFF 45%,#8A96F2 65%,#9EC5FF 82%,#FF7A1A 100%);">&nbsp;</td></tr>
+      <tr><td class="pad" style="padding:22px 28px 0 28px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+          <td valign="middle">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+              <td bgcolor="#FFFFFF" style="background:#FFFFFF;border-radius:12px;padding:8px 14px;">
+                <a href="https://ncelerate.com/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=ncelerate_newsletter_2026-11&amp;utm_content=logo" style="text-decoration:none;"><img src="https://raw.githubusercontent.com/mayurcoolkrni7/shortlist-assets/main/ncelerate/assets/ncelerate-logo.png" width="160" height="33" alt="NCelerate" style="display:block;width:160px;height:33px;max-width:160px;border:0;outline:none;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:bold;color:#FF7A1A;"></a>
+              </td>
+            </tr></table>
+          </td>
+          <td valign="middle" align="right">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+              <td style="background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.25);border-radius:99px;padding:5px 12px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:14px;color:#FFFFFF;font-weight:bold;white-space:nowrap;">November 2026</td>
+            </tr></table>
+          </td>
+        </tr></table>
+      </td></tr>
+
+      <tr><td class="pad" style="padding:24px 28px 0 28px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+          <td valign="middle" bgcolor="#FF7A1A" style="background:#FF7A1A;background-image:linear-gradient(90deg,#FF7A1A 0%,#E86BD6 55%,#8A96F2 100%);border-radius:99px;padding:4px 11px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:14px;color:#FFFFFF;font-weight:bold;">GCC operating models</td>
+        </tr></table>
+        <div class="d hero-h" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:33px;line-height:39px;font-weight:700;color:#FFFFFF;letter-spacing:-0.8px;padding:12px 0 8px 0;">Three U.S. brands. Three ways to build in India.</div>
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#B8CCDA;padding-bottom:20px;">Mars, Blackstone and Gilead each opened an India GCC this month, and each chose a different model. Here&rsquo;s what they did, and what it means if you&rsquo;re planning your own.</div>
+      </td></tr>
+
+      <!-- What NCelerate does in GCC (pure HTML, no image) -->
+      <tr><td class="pad" style="padding:0 28px 28px 28px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#FFFFFF;border-radius:16px;overflow:hidden;box-shadow:0 0 0 1px rgba(255,178,122,.45),0 10px 34px rgba(199,125,255,.30);">
+          <tr><td height="4" bgcolor="#FF7A1A" style="height:4px;font-size:0;line-height:0;background-color:#FF7A1A;background-image:linear-gradient(90deg,#FF7A1A 0%,#FFB27A 20%,#C77DFF 45%,#8A96F2 65%,#9EC5FF 82%,#FF7A1A 100%);">&nbsp;</td></tr>
+          <tr><td style="padding:12px 16px;border-bottom:1px solid #E3E8F4;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:16px;color:#5A6B78;">
+            <strong style="color:#10212F;">What NCelerate does in GCC</strong>&nbsp;&nbsp;<span style="color:#5A6B78;">Every model, one partner</span>
+          </td></tr>
+          <tr><td style="padding:16px 12px 6px 12px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+              <td class="stage" width="33%" valign="top" style="width:33%;padding:0 4px;">
+                <div style="background:#F5F7FD;border-top:3px solid #C77DFF;border-radius:12px;padding:12px;">
+                  <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:16px;line-height:21px;font-weight:700;color:#10212F;">BOT</div>
+                  <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:16px;color:#C2560A;font-weight:bold;padding:3px 0 6px 0;">Partner first</div>
+                  <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:17px;color:#3A4854;">We set up and run your center, then transfer it to you on an agreed timeline.</div>
+                </div>
+              </td>
+              <td class="stage" width="33%" valign="top" style="width:33%;padding:0 4px;">
+                <div style="background:#F5F7FD;border-top:3px solid #8A96F2;border-radius:12px;padding:12px;">
+                  <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:16px;line-height:21px;font-weight:700;color:#10212F;">Hybrid</div>
+                  <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:16px;color:#C2560A;font-weight:bold;padding:3px 0 6px 0;">Mixed team</div>
+                  <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:17px;color:#3A4854;">Your core team plus our managed operations, with clear ownership lines from day one.</div>
+                </div>
+              </td>
+              <td class="stage" width="34%" valign="top" style="width:34%;padding:0 4px;">
+                <div style="background:#F5F7FD;border-top:3px solid #FF7A1A;border-radius:12px;padding:12px;">
+                  <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:16px;line-height:21px;font-weight:700;color:#10212F;">Captive</div>
+                  <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:16px;color:#C2560A;font-weight:bold;padding:3px 0 6px 0;">In-house</div>
+                  <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:17px;color:#3A4854;">We handle entity setup, compliance and hiring, so you own the center from the start.</div>
+                </div>
+              </td>
+            </tr></table>
+          </td></tr>
+          <tr><td style="padding:6px 16px 14px 16px;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:17px;color:#5A6B78;">Whichever path you choose, NCelerate takes you from feasibility to a fully running India center.</td></tr>
+        </table>
+      </td></tr>
+    </table>
+  </td></tr>
+
+  <!-- ================= AT A GLANCE ================= -->
+  <tr><td bgcolor="#12347A" style="background-color:#12347A;background-image:radial-gradient(circle at 95% 100%,rgba(255,122,26,.22) 0%,rgba(255,122,26,0) 40%),linear-gradient(180deg,#12347A 0%,#0E2C69 100%);">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr><td class="pad d" style="padding:4px 28px 10px 28px;font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;line-height:18px;font-weight:600;color:#D1E1EB;">This month at a glance</td></tr>
+      <tr><td class="pad" style="padding:0 20px 24px 20px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+          <td class="tile-cell" width="33%" valign="top" style="width:33%;padding:0 4px 0 0;">
+            <div class="tile" style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-top:3px solid #FF7A1A;border-radius:14px;padding:14px;">
+              <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:700;color:#FFB27A;">Mars</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#FFFFFF;padding-top:4px;">Hyderabad hub for digital work and AI-assisted operations.</div>
+            </div>
+          </td>
+          <td class="tile-cell" width="33%" valign="top" style="width:33%;padding:0 2px;">
+            <div class="tile" style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-top:3px solid #8A96F2;border-radius:14px;padding:14px;">
+              <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:700;color:#B4BCFA;">Blackstone</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#FFFFFF;padding-top:4px;">Bengaluru center for finance, tech, HR, legal and compliance.</div>
+            </div>
+          </td>
+          <td class="tile-cell" width="34%" valign="top" style="width:34%;padding:0 0 0 4px;">
+            <div class="tile" style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-top:3px solid #C77DFF;border-radius:14px;padding:14px;">
+              <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:700;color:#E2B8FF;">Gilead</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#FFFFFF;padding-top:4px;">Bengaluru center starting with cybersecurity and AI.</div>
+            </div>
+          </td>
+        </tr></table>
+      </td></tr>
+    </table>
+  </td></tr>
+
+  <!-- ================= INTRO ================= -->
+  <tr><td class="pad" style="padding:24px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:22px;color:#24323E;">
+    <p style="margin:0 0 10px 0;">Hi {{ contact.FIRSTNAME | default : 'there' }},</p>
+    <p style="margin:0;">If you&rsquo;re weighing an India GCC, one of the first calls you&rsquo;ll make is who builds it and who owns it. This month, three well-known U.S. companies made that call three different ways. Here&rsquo;s what happened, and how NCelerate can help.</p>
+  </td></tr>
+
+  <!-- ================= WORTH KNOWING ================= -->
+  <tr><td class="pad" style="padding:28px 28px 0 28px;">
+    <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:23px;line-height:29px;font-weight:700;color:#10212F;letter-spacing:-0.5px;">Three things worth knowing</div>
+  </td></tr>
+
+  <tr><td class="pad" style="padding:14px 28px 0 28px;">
+    <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:17px;line-height:23px;font-weight:700;color:#10212F;padding:0 0 6px 0;">Mars: start with a partner, take ownership later</div>
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#3A4854;">Mars <a href="https://www.foodinfotech.com/mars-opens-global-capability-center-in-hyderabad-with-genpact-to-drive-digital-innovation/" style="color:#C2560A;">opened its Hyderabad GCC</a> with Genpact, its operations partner since 2018 (reported Nov. 23). The roughly 60,000-square-foot center opens with 400+ Genpact staff and plans to transition to 1,000 Mars associates. It will redesign Mars operations around AI-assisted workflows.</div>
+    <div style="border-left:3px solid #C77DFF;padding:1px 0 1px 12px;margin-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#24323E;"><strong>Why it matters:</strong> you get running quickly without tying yourself to a vendor for good. Before you sign, agree on when the handover happens and what triggers it.</div>
+  </td></tr>
+
+  <tr><td class="pad" style="padding:22px 28px 0 28px;">
+    <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:17px;line-height:23px;font-weight:700;color:#10212F;padding:0 0 6px 0;">Blackstone: its own people, plus partners</div>
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#3A4854;">Blackstone <a href="https://theprint.in/economy/bengalurus-global-ambitions-get-a-blackstone-boost-as-1-4-trillion-firm-expands-india-operations/3085893/" style="color:#C2560A;">opened a GCC in Bengaluru</a>, its second India office (announced Oct. 28). The center brings together Blackstone employees and professional services partners, and supports finance, technology, HR, legal and compliance across the firm&rsquo;s global businesses.</div>
+    <div style="border-left:3px solid #8A96F2;padding:1px 0 1px 12px;margin-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#24323E;"><strong>Why it matters:</strong> a mixed team lets you keep sensitive work close while partners handle the rest. It works when the line between the two is drawn clearly from day one.</div>
+  </td></tr>
+
+  <tr><td class="pad" style="padding:22px 28px 0 28px;">
+    <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:17px;line-height:23px;font-weight:700;color:#10212F;padding:0 0 6px 0;">Gilead: bring the work in-house</div>
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#3A4854;">Gilead Sciences <a href="https://gcc-pulse.com/news-updates/gilead-sciences-opens-gcc-in-bengaluru/" style="color:#C2560A;">opened Gilead Capabilities Center India</a> in Bengaluru earlier this month. The goal is to bring more technology and digital expertise in-house, starting with cybersecurity and AI.</div>
+    <div style="border-left:3px solid #FF7A1A;padding:1px 0 1px 12px;margin-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#24323E;"><strong>Why it matters:</strong> when a biopharma company starts its India center with cybersecurity and AI, it shows how far GCCs have moved past back-office work. Full ownership gives you control, but you carry setup and hiring yourself.</div>
+  </td></tr>
+
+  <!-- ================= HOW NCELERATE HELPS ================= -->
+  <tr><td class="pad" style="padding:34px 28px 0 28px;">
+    <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:23px;line-height:29px;font-weight:700;color:#10212F;letter-spacing:-0.5px;">How NCelerate helps</div>
+    <p style="margin:6px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:22px;color:#3A4854;">Whichever model fits, we help you plan it, build it and run it.</p>
+  </td></tr>
+
+  <tr><td class="pad" style="padding:16px 20px 0 20px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td class="stack step-cell" width="32%" valign="top" style="width:32%;background:#F5F7FD;border:1px solid #DCE3F3;border-radius:16px;padding:16px 14px 18px 14px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="30" height="30" align="center" valign="middle" style="width:30px;height:30px;border-radius:50%;background:#FF7A1A;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:30px;font-weight:bold;color:#FFFFFF;">1</td></tr></table>
+        <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:15px;line-height:20px;font-weight:700;color:#10212F;padding:12px 0 6px 0;">Design</div>
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:20px;color:#485663;">Feasibility, advisory and structure. Choose between Captive, BOT and Hybrid before you commit budget.</div>
+      </td>
+      <td class="hide-m" width="8" style="width:8px;font-size:0;line-height:0;">&nbsp;</td>
+      <td class="stack step-cell" width="32%" valign="top" style="width:32%;background:#F5F7FD;border:1px solid #DCE3F3;border-radius:16px;padding:16px 14px 18px 14px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="30" height="30" align="center" valign="middle" style="width:30px;height:30px;border-radius:50%;background:#8A96F2;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:30px;font-weight:bold;color:#FFFFFF;">2</td></tr></table>
+        <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:15px;line-height:20px;font-weight:700;color:#10212F;padding:12px 0 6px 0;">Build</div>
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:20px;color:#485663;">Talent, compliance and setup, so your center is ready to operate.</div>
+      </td>
+      <td class="hide-m" width="8" style="width:8px;font-size:0;line-height:0;">&nbsp;</td>
+      <td class="stack step-cell" width="32%" valign="top" style="width:32%;background:#F5F7FD;border:1px solid #DCE3F3;border-radius:16px;padding:16px 14px 18px 14px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="30" height="30" align="center" valign="middle" style="width:30px;height:30px;border-radius:50%;background:#C77DFF;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:30px;font-weight:bold;color:#FFFFFF;">3</td></tr></table>
+        <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:15px;line-height:20px;font-weight:700;color:#10212F;padding:12px 0 6px 0;">Accelerate</div>
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:20px;color:#485663;">Management, performance and growth as your center scales.</div>
+      </td>
+    </tr></table>
+  </td></tr>
+
+  <!-- models and functions -->
+  <tr><td class="pad" style="padding:20px 20px 0 20px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td bgcolor="#0B2559" style="background-color:#0B2559;background-image:radial-gradient(circle at 100% 0%,rgba(199,125,255,.30) 0%,rgba(199,125,255,0) 45%),radial-gradient(circle at 0% 100%,rgba(255,122,26,.25) 0%,rgba(255,122,26,0) 45%);border-radius:18px;padding:18px 20px 16px 20px;">
+        <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;line-height:20px;font-weight:600;color:#D1E1EB;padding-bottom:10px;">Models we support</div>
+        <div style="font-size:0;line-height:0;">
+          <span class="chip" style="display:inline-block;margin:0 6px 6px 0;padding:6px 11px;border-radius:99px;border:1px solid rgba(255,178,122,.55);font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:14px;color:#FFFFFF;">Captive</span>
+          <span class="chip" style="display:inline-block;margin:0 6px 6px 0;padding:6px 11px;border-radius:99px;border:1px solid rgba(255,178,122,.55);font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:14px;color:#FFFFFF;">Build-Operate-Transfer</span>
+          <span class="chip" style="display:inline-block;margin:0 6px 6px 0;padding:6px 11px;border-radius:99px;border:1px solid rgba(255,178,122,.55);font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:14px;color:#FFFFFF;">Hybrid / Managed GCC</span>
+          <span class="chip" style="display:inline-block;margin:0 6px 6px 0;padding:6px 11px;border-radius:99px;border:1px solid rgba(255,178,122,.55);font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:14px;color:#FFFFFF;">Tech &amp; Innovation</span>
+          <span class="chip" style="display:inline-block;margin:0 6px 6px 0;padding:6px 11px;border-radius:99px;border:1px solid rgba(255,178,122,.55);font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:14px;color:#FFFFFF;">Finance &amp; Business Ops</span>
+        </div>
+      </td>
+    </tr></table>
+  </td></tr>
+
+  <!-- ================= CTA ================= -->
+  <tr><td class="pad" style="padding:12px 20px 0 20px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td bgcolor="#E5600F" style="background-color:#E5600F;background-image:radial-gradient(circle at 92% 12%,rgba(255,255,255,.28) 0%,rgba(255,255,255,0) 36%),radial-gradient(circle at 6% 100%,rgba(199,125,255,.35) 0%,rgba(199,125,255,0) 45%),linear-gradient(135deg,#F26A10 0%,#C9530A 100%);border-radius:18px;padding:24px 24px 26px 24px;">
+        <table role="presentation" class="cta-txt" width="380" cellpadding="0" cellspacing="0" border="0" style="width:380px;"><tr><td style="font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#FFF1E6;">
+          <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:23px;line-height:29px;font-weight:700;color:#FFFFFF;letter-spacing:-0.5px;padding-bottom:8px;">Which model fits your India plans?</div>
+          Tell us where you are, and we&rsquo;ll walk you through the trade-offs for your situation.
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:16px;"><tr>
+            <td class="btn" style="background:#0B2559;border-radius:99px;">
+              <a href="https://ncelerate.com/contact?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=ncelerate_newsletter_2026-11&amp;utm_content=cta" style="display:inline-block;padding:12px 24px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;border-radius:99px;">Talk to a GCC Expert</a>
+            </td>
+          </tr></table>
+        </td></tr></table>
+      </td>
+    </tr></table>
+  </td></tr>
+
+  <!-- ================= YOUR TURN (one-tap poll) ================= -->
+  <tr><td class="pad" style="padding:28px 28px 0 28px;">
+    <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:21px;line-height:27px;font-weight:700;color:#10212F;letter-spacing:-0.4px;">Your turn</div>
+    <p style="margin:6px 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:22px;color:#24323E;">Which model are you leaning toward? Tap one, or hit reply and tell us more.</p>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td class="poll-cell" width="25%" style="width:25%;padding-right:6px;"><a href="https://ncelerate.com/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=ncelerate_newsletter_2026-11&amp;utm_content=poll_captive" class="poll" style="display:block;text-align:center;background:#FFF1E6;border:2px solid #FFF1E6;border-radius:12px;padding:10px 4px;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;color:#A84A08;text-decoration:none;">Captive</a></td>
+      <td class="poll-cell" width="25%" style="width:25%;padding-right:6px;"><a href="https://ncelerate.com/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=ncelerate_newsletter_2026-11&amp;utm_content=poll_bot" class="poll" style="display:block;text-align:center;background:#FFF1E6;border:2px solid #FFF1E6;border-radius:12px;padding:10px 4px;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;color:#A84A08;text-decoration:none;">BOT</a></td>
+      <td class="poll-cell" width="25%" style="width:25%;padding-right:6px;"><a href="https://ncelerate.com/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=ncelerate_newsletter_2026-11&amp;utm_content=poll_hybrid" class="poll" style="display:block;text-align:center;background:#FFF1E6;border:2px solid #FFF1E6;border-radius:12px;padding:10px 4px;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;color:#A84A08;text-decoration:none;">Hybrid</a></td>
+      <td class="poll-cell" width="25%" style="width:25%;"><a href="https://ncelerate.com/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=ncelerate_newsletter_2026-11&amp;utm_content=poll_not_sure" class="poll" style="display:block;text-align:center;background:#FFF1E6;border:2px solid #FFF1E6;border-radius:12px;padding:10px 4px;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;color:#A84A08;text-decoration:none;">Not sure yet</a></td>
+    </tr></table>
+    <p style="margin:20px 0 24px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:22px;color:#24323E;">See you until next time!<br><strong>Team NCelerate</strong></p>
+  </td></tr>
+
+  <!-- ================= FOOTER ================= -->
+  <tr><td height="3" bgcolor="#FF7A1A" style="height:3px;font-size:0;line-height:0;background-color:#FF7A1A;background-image:linear-gradient(90deg,#FF7A1A 0%,#FFB27A 20%,#C77DFF 45%,#8A96F2 65%,#9EC5FF 82%,#FF7A1A 100%);">&nbsp;</td></tr>
+  <tr><td class="pad" bgcolor="#0B2559" style="background-color:#0B2559;background-image:radial-gradient(circle at 100% 0%,rgba(255,122,26,.22) 0%,rgba(255,122,26,0) 40%),radial-gradient(circle at 0% 100%,rgba(138,150,242,.25) 0%,rgba(138,150,242,0) 45%);padding:22px 28px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:17px;color:#9DB2C4;">
+    <div class="d" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:18px;line-height:22px;font-weight:700;color:#FFFFFF;letter-spacing:-0.3px;padding-bottom:12px;">NCelerate</div>
+    India&rsquo;s talent pool. Your strategic control.<br><br>You&rsquo;re getting this email because you&rsquo;re in touch with NCelerate. We help mid-market enterprises design, build and scale Global Capability Centers in India.<br><br>[NCelerate postal address: required for U.S. CAN-SPAM compliance]<br><br>
+    <a href="https://ncelerate.com/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=ncelerate_newsletter_2026-11&amp;utm_content=footer" style="color:#D1E1EB;">ncelerate.com</a>&nbsp;&nbsp;&nbsp;<a href="{{ update_profile }}" style="color:#D1E1EB;">Update preferences</a>&nbsp;&nbsp;&nbsp;<a href="{{ unsubscribe }}" style="color:#D1E1EB;">Unsubscribe</a>
+  </td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>
